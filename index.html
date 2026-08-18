@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="lv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kas ir hipervizors?</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <div class="hero__content">
+          <p class="eyebrow">Digitālā pasaule bērniem</p>
+          <h1>Kas ir hipervizors?</h1>
+          <p class="hero__lead">
+            Iedomājies vienu spēcīgu datoru kā lielu māju. Hipervizors ir gudrs
+            pārvaldnieks, kas palīdz šajā mājā izveidot vairākus “mazos datorus”
+            vienlaikus.
+          </p>
+          <div class="hero__actions">
+            <a class="button button--primary" href="#skaidrojums">Sākt mācīties</a>
+            <a class="button button--ghost" href="#tests">Pildīt testu</a>
+          </div>
+        </div>
+        <div class="hero__art card">
+          <svg viewBox="0 0 420 280" aria-label="Hipervizora shēma" role="img">
+            <rect x="35" y="210" width="350" height="42" rx="16" class="svg-hardware" />
+            <text x="210" y="236" text-anchor="middle">Datora aparatūra</text>
+            <rect x="75" y="150" width="270" height="42" rx="16" class="svg-hypervisor" />
+            <text x="210" y="176" text-anchor="middle">Hipervizors</text>
+            <rect x="40" y="62" width="100" height="52" rx="18" class="svg-vm" />
+            <rect x="160" y="62" width="100" height="52" rx="18" class="svg-vm" />
+            <rect x="280" y="62" width="100" height="52" rx="18" class="svg-vm" />
+            <text x="90" y="92" text-anchor="middle">VM 1</text>
+            <text x="210" y="92" text-anchor="middle">VM 2</text>
+            <text x="330" y="92" text-anchor="middle">VM 3</text>
+            <line x1="90" y1="114" x2="125" y2="150" class="svg-line" />
+            <line x1="210" y1="114" x2="210" y2="150" class="svg-line" />
+            <line x1="330" y1="114" x2="295" y2="150" class="svg-line" />
+            <line x1="210" y1="192" x2="210" y2="210" class="svg-line" />
+          </svg>
+        </div>
+      </header>
+
+      <main>
+        <section id="skaidrojums" class="section">
+          <div class="section__heading">
+            <p class="eyebrow">Vienkāršs skaidrojums</p>
+            <h2>Hipervizors sadala vienu datoru vairākos virtuālos datoros</h2>
+          </div>
+          <div class="grid grid--3">
+            <article class="card">
+              <h3>Kas tas ir?</h3>
+              <p>
+                Hipervizors ir programma vai sistēma, kas ļauj vienam datoram
+                darbināt vairākus virtuālos datorus.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Kāpēc tas noder?</h3>
+              <p>
+                Tas palīdz taupīt vietu, elektrību un ļauj vienā datorā veikt
+                dažādus darbus vienlaikus.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Kur to lieto?</h3>
+              <p>
+                Skolās, uzņēmumos un datu centros, kur vajag daudz datoru bez
+                daudzu īstu kastu pirkšanas.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section section--highlight">
+          <div class="section__heading">
+            <p class="eyebrow">Piemērs no dzīves</p>
+            <h2>Padomā par skolas sporta zāli</h2>
+          </div>
+          <div class="grid grid--2">
+            <article class="card">
+              <p>
+                Sporta zāle ir viens liels laukums. Skolotājs to sadala vairākās
+                daļās, lai vienā vietā var spēlēt basketbolu, citā vingrot, bet
+                vēl citā trenēties stafetei.
+              </p>
+              <p>
+                Tāpat hipervizors vienu datoru sadala vairākos drošos “stūrīšos”
+                jeb virtuālajās mašīnās.
+              </p>
+            </article>
+            <article class="card card--accent">
+              <ul class="check-list">
+                <li>Viens īsts dators</li>
+                <li>Vairākas virtuālās mašīnas</li>
+                <li>Katrai savs uzdevums</li>
+                <li>Visu pārrauga hipervizors</li>
+              </ul>
+            </article>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section__heading">
+            <p class="eyebrow">Shēmas un attēli</p>
+            <h2>Divi veidi, kā skatīties uz hipervizoru</h2>
+          </div>
+          <div class="grid grid--2">
+            <article class="card">
+              <h3>Kā darbojas 1. tipa hipervizors</h3>
+              <svg viewBox="0 0 360 250" aria-label="Pirmā tipa hipervizora shēma" role="img">
+                <rect x="35" y="180" width="290" height="38" rx="14" class="svg-hardware" />
+                <rect x="55" y="128" width="250" height="34" rx="14" class="svg-hypervisor" />
+                <rect x="50" y="48" width="74" height="52" rx="16" class="svg-vm" />
+                <rect x="143" y="48" width="74" height="52" rx="16" class="svg-vm" />
+                <rect x="236" y="48" width="74" height="52" rx="16" class="svg-vm" />
+                <text x="180" y="203" text-anchor="middle">Aparatūra</text>
+                <text x="180" y="149" text-anchor="middle">Hipervizors uzreiz virs aparatūras</text>
+                <text x="87" y="79" text-anchor="middle">VM</text>
+                <text x="180" y="79" text-anchor="middle">VM</text>
+                <text x="273" y="79" text-anchor="middle">VM</text>
+              </svg>
+            </article>
+            <article class="card">
+              <h3>Kā darbojas 2. tipa hipervizors</h3>
+              <svg viewBox="0 0 360 250" aria-label="Otrā tipa hipervizora shēma" role="img">
+                <rect x="35" y="188" width="290" height="30" rx="14" class="svg-hardware" />
+                <rect x="55" y="142" width="250" height="28" rx="14" class="svg-os" />
+                <rect x="78" y="96" width="204" height="28" rx="14" class="svg-hypervisor" />
+                <rect x="64" y="36" width="70" height="40" rx="16" class="svg-vm" />
+                <rect x="145" y="36" width="70" height="40" rx="16" class="svg-vm" />
+                <rect x="226" y="36" width="70" height="40" rx="16" class="svg-vm" />
+                <text x="180" y="208" text-anchor="middle">Aparatūra</text>
+                <text x="180" y="160" text-anchor="middle">Parasta operētājsistēma</text>
+                <text x="180" y="114" text-anchor="middle">Hipervizors kā programma</text>
+              </svg>
+            </article>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section__heading">
+            <p class="eyebrow">Svarīgākais īsumā</p>
+            <h2>Ko vajag atcerēties?</h2>
+          </div>
+          <div class="grid grid--2">
+            <article class="card">
+              <h3>Plusi</h3>
+              <ul class="bullet-list">
+                <li>Var izmantot vienu datoru gudrāk.</li>
+                <li>Katru virtuālo mašīnu var izmantot citam darbam.</li>
+                <li>Ja viena virtuālā mašīna sabojājas, citas var turpināt strādāt.</li>
+              </ul>
+            </article>
+            <article class="card">
+              <h3>Kas jāņem vērā?</h3>
+              <ul class="bullet-list">
+                <li>Galvenajam datoram jābūt pietiekami jaudīgam.</li>
+                <li>Hipervizors visu dala godīgi starp virtuālajām mašīnām.</li>
+                <li>Jo vairāk virtuālo mašīnu, jo vairāk resursu vajag.</li>
+              </ul>
+            </article>
+          </div>
+        </section>
+
+        <section id="tests" class="section section--quiz">
+          <div class="section__heading">
+            <p class="eyebrow">Pārbaudi sevi</p>
+            <h2>10 testu jautājumi</h2>
+          </div>
+          <form id="quiz-form" class="quiz"></form>
+          <div class="quiz__actions">
+            <button class="button button--primary" type="button" id="check-answers">
+              Pārbaudīt atbildes
+            </button>
+            <button class="button button--ghost" type="button" id="reset-quiz">
+              Sākt no jauna
+            </button>
+          </div>
+          <div id="quiz-result" class="quiz-result" aria-live="polite"></div>
+        </section>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
